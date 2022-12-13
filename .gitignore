@@ -46,5 +46,5 @@ app.*.map.json
 /android/app/release
 
 # gitignore files
-android/app/google-services.json
-ios/Runner/GoogleService-Info.plist
+android/app/google-service.json
+ios/Runner/GoogleService-Infos.plist
