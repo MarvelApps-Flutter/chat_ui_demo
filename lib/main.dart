@@ -1,4 +1,4 @@
-import 'package:chat_app/Authenticate/Autheticate.dart';
+import 'package:chat_app/authentication/Autheticate.dart';
 import 'package:chat_app/utils/easy_loading.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';

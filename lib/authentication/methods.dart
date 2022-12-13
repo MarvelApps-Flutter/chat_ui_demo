@@ -6,7 +6,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'login_screen.dart';
+import '../views/login_screen.dart';
+
+//import '../libs/views/login_screen.dart';
+
 
 Future<User?> createAccount(String name, String email, String password) async {
   FirebaseAuth _auth = FirebaseAuth.instance;

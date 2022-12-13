@@ -1,5 +1,3 @@
-import 'package:chat_app/Screens/HomeScreen.dart';
-import 'package:chat_app/all_chats_screen.dart';
 import 'package:chat_app/mixins/validate_mixin.dart';
 import 'package:chat_app/model/user_object.dart';
 import 'package:chat_app/utils/app_config.dart';
@@ -9,6 +7,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+//import '../screens/all_chats_screen.dart';
+//import '../libs/views/all_chats_screen.dart';
+import '../views/all_chats_screen.dart';
 import 'sign_up_screen.dart';
 
 class LoginScreen extends StatefulWidget {

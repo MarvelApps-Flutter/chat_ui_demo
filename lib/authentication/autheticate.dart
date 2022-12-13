@@ -1,9 +1,11 @@
-import 'package:chat_app/Screens/HomeScreen.dart';
-import 'package:chat_app/all_chats_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import 'login_screen.dart';
+import '../views/all_chats_screen.dart';
+import '../views/login_screen.dart';
+// import '../libs/views/all_chats_screen.dart';
+// import '../libs/views/login_screen.dart';
+//import '../screens/all_chats_screen.dart';
 
 class Authenticate extends StatelessWidget {
   final FirebaseAuth _auth = FirebaseAuth.instance;

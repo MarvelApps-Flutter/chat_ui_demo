@@ -1,5 +1,4 @@
-import 'package:chat_app/Authenticate/Methods.dart';
-import 'package:chat_app/Screens/HomeScreen.dart';
+import 'package:chat_app/authentication/methods.dart';
 import 'package:chat_app/mixins/validate_mixin.dart';
 import 'package:chat_app/utils/app_config.dart';
 import 'package:chat_app/utils/app_text_styles.dart';
@@ -7,10 +6,8 @@ import 'package:chat_app/utils/shared_widgets.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-
-import '../all_chats_screen.dart';
+import 'all_chats_screen.dart';
 import 'login_screen.dart';
-
 
 
 class SignUpScreen extends StatefulWidget {

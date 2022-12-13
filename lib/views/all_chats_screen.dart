@@ -1,12 +1,11 @@
+import 'package:chat_app/views/profile_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'Authenticate/Methods.dart';
-import 'Authenticate/login_screen.dart';
-import 'Screens/ChatRoom.dart';
-import 'Screens/profile_screen.dart';
-import 'Screens/users_screen.dart';
-import 'model/chat_model.dart';
+import '../authentication/methods.dart';
+import '../../model/chat_model.dart';
+import 'chat_room.dart';
+import 'users_screen.dart';
 
 class AllChatsScreen extends StatefulWidget {
   @override

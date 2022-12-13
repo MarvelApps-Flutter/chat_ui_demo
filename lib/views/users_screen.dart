@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'ChatRoom.dart';
+import 'chat_room.dart';
 
 class UsersScreen extends StatefulWidget {
   @override
@@ -46,14 +46,16 @@ class _UsersScreenState extends State<UsersScreen> {
       // ),
       body: Container(
         padding: EdgeInsets.all(8),
-        child: Column(
-          children: [
-            buildSearchTextField(),
-            SizedBox(
-              height: 10,
-            ),
-            buildBody(),
-          ],
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              buildSearchTextField(),
+              SizedBox(
+                height: 10,
+              ),
+              buildBody(),
+            ],
+          ),
         ),
       ),
     ));
