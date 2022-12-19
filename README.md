@@ -2,7 +2,6 @@
 A new flutter app for demonstrating chat ui demo.
 
 # Demo
-<img src="https://github.com/MarvelApps-Flutter/chat_ui_demo/blob/master/media/gif/demo.gif" height="480px"></td>
 
 # Android Screenshots
 
@@ -31,4 +30,4 @@ A new flutter app for demonstrating chat ui demo.
     <td><img src="https://github.com/MarvelApps-Flutter/chat_ui_demo/blob/master/media/ios/ios4.png" height="480px"></td>
     <td><img src="https://github.com/MarvelApps-Flutter/chat_ui_demo/blob/master/media/ios/ios5.png" height="480px"></td>
   </tr>
- </table>
+</table>
